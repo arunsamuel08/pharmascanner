@@ -2,7 +2,12 @@
 
 .navbar-container {
   width: 100%;
-  padding: 0px 20px 0px 20px;
+  box-sizing: border-box;
+  padding: 10px 150px 10px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 0;
 }
 
 .navbar-container .logo {
@@ -11,4 +16,21 @@
   font-style: normal;
   font-size: 30px;
   color: #fff;
+}
+
+.navbar-container .navlinks{
+  width: 200px;
+}
+
+.navbar-container .navlinks ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-container .navlinks ul li a{
+  font-family: Poppins;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
 }

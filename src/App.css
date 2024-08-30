@@ -9,9 +9,21 @@
 }
 
 .App .home-searchcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--primary-color);
   height: 40%;
   width: 100%;
-  border-radius: 0px 0px 10px 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.home-searchcontainer h4{
+  color: #fff;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  font-family: Poppins;
+  font-weight: 200;
+  font-size: 25px;
 }

@@ -3,7 +3,6 @@
 .navbar-container {
   width: 100%;
   box-sizing: border-box;
-  padding: 10px 150px 10px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,4 +32,19 @@
   color: #fff;
   text-decoration: none;
   font-size: 15px;
+}
+
+@media (max-width: 800px){
+  .navbar-container .navlinks{
+    display: none;
+  }
+
+  .navbar-container{
+    justify-content: left;
+  }
+
+  .navbar-container .logo{
+    margin: 10px;
+    font-size: 25px;
+  }
 }

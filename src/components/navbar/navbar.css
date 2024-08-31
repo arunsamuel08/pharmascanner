@@ -40,11 +40,12 @@
   }
 
   .navbar-container{
-    justify-content: left;
+    justify-content: center;
   }
 
   .navbar-container .logo{
     margin: 10px;
-    font-size: 25px;
+    margin-bottom: 0;
+    font-size: 35px;
   }
 }
